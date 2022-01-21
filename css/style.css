@@ -1,3 +1,15 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@700&family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@700&family=Satisfy&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
 
 /*# sourceMappingURL=style.css.map */

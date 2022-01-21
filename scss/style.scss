@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@700&family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@700&family=Satisfy&display=swap');
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+$green: #27ae60;
+$black: #130f40;
+$white: #fff;
+$light-color: #666;
+$light-bg: #f7f7f7;
+$border: .1rem solid rgba(0, 0, 0, .2);
+$box-shadow: 0 1rem 1rem solid rgba(0, 0, 0, .05);
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
+
+@mixin font($size){
+    font-family: 'Satisfy', cursive;
+    font-size: $size;
+    color: $green;
+}
