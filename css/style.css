@@ -29,6 +29,11 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
+section {
+  padding: 2rem 9%;
+}
+
+/* ======= Header Section ======= */
 .header {
   position: sticky;
   top: 0;
@@ -61,9 +66,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .icons div {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
   font-size: 2rem;
   background: #f7f7f7;
   color: #130f40;
@@ -75,6 +80,27 @@ html::-webkit-scrollbar-thumb {
 .icons div:hover {
   color: #fff;
   background: #27ae60;
+}
+
+#menu-btn {
+  display: none;
+}
+
+/* Search Form / Formulario de Pesquisa */
+.search-form-container {
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+}
+.search-form-container form {
+  height: 7rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 /*
