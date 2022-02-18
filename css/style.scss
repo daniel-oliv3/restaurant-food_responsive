@@ -135,10 +135,30 @@ section {
 
     form {
         height: 7rem;
-        border-bottom: $border;
+        border-bottom: .2rem solid $black;
         width: 100%;
         display: flex;
         align-items: center;
+
+        input {
+            height: 100%;
+            width: 100%;
+            font-size: 1.7rem;
+            color: $black;
+            text-transform: none;
+            padding-right: 1rem;
+        }
+
+        label {
+            font-size: 3rem;
+            cursor: pointer;
+            color: $black;
+
+
+            &:hover {
+                color: $green;
+            }
+        }
     }
 }
 
@@ -177,4 +197,5 @@ cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
 SASS
 sass --watch ./css/style.scss:./css/style.css
 
+13m
 */

@@ -97,10 +97,26 @@ section {
 }
 .search-form-container form {
   height: 7rem;
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.2rem solid #130f40;
   width: 100%;
   display: flex;
   align-items: center;
+}
+.search-form-container form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.7rem;
+  color: #130f40;
+  text-transform: none;
+  padding-right: 1rem;
+}
+.search-form-container form label {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #130f40;
+}
+.search-form-container form label:hover {
+  color: #27ae60;
 }
 
 /*
@@ -110,6 +126,7 @@ cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
 SASS
 sass --watch ./css/style.scss:./css/style.css
 
+13m
 */
 
 /*# sourceMappingURL=style.css.map */
