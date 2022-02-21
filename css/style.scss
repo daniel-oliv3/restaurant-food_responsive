@@ -60,6 +60,20 @@ section {
     padding: 2rem 9%;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .7rem 1.8rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: $white;
+    background: $green;
+    border-radius: .5rem;
+
+    &:hover {
+        background: $black;
+    }
+}
 
 
 /* ======= Header section/Seção de cabeçalho ======= */
@@ -152,7 +166,7 @@ section {
         width: 100%;
         display: flex;
         align-items: center;
-        animation: fadeUp .4s linear;
+        //animation: fadeUp .4s linear;
 
         input {
             height: 100%;
@@ -215,6 +229,7 @@ section {
         border: $border;
         border-radius: .5rem;
 
+        animation: fadeUp .4s linear;
 
         .box-container {
             @include grid(30rem);
@@ -308,8 +323,54 @@ section {
 
 
 
+/* ======= ------ section/Seção de --------- ======= */
 
 
+
+
+
+
+
+
+
+
+
+
+/* ======= ------ Responsividade --------- ======= */
+@media (max-width: 991px) {
+    
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    
+    html {
+        font-size: 50%;
+    }
+    
+    .shopping-cart-container .cart-total {
+
+        .box {
+            text-align: center;
+
+            .btn {
+                width: 100%;
+            }
+        }
+    }
+}
 
 
 

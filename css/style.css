@@ -34,6 +34,20 @@ section {
   padding: 2rem 9%;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: #fff;
+  background: #27ae60;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background: #130f40;
+}
+
 /* ======= Header section/Seção de cabeçalho ======= */
 .header {
   position: sticky;
@@ -113,7 +127,6 @@ section {
   width: 100%;
   display: flex;
   align-items: center;
-  animation: fadeUp 0.4s linear;
 }
 .search-form-container form input {
   height: 100%;
@@ -164,6 +177,7 @@ section {
 .shopping-cart-container .products-container {
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
+  animation: fadeUp 0.4s linear;
 }
 .shopping-cart-container .products-container .box-container {
   display: grid;
@@ -230,6 +244,33 @@ section {
   color: #27ae60;
 }
 
+/* ======= ------ section/Seção de --------- ======= */
+/* ======= ------ Responsividade --------- ======= */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .shopping-cart-container .cart-total .box {
+    text-align: center;
+  }
+  .shopping-cart-container .cart-total .box .btn {
+    width: 100%;
+  }
+}
 /*
 Caminho para o gitbash 
 cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
