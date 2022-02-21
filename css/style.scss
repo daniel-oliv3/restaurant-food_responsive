@@ -132,6 +132,11 @@ section {
     right: 0;
     height: calc(100vh - 8.5rem);
     background: $white;
+    display: none;
+
+    &.active {
+        display: block;
+    }
 
     form {
         height: 7rem;
@@ -139,6 +144,7 @@ section {
         width: 100%;
         display: flex;
         align-items: center;
+        animation: fadeUp .4s linear;
 
         input {
             height: 100%;

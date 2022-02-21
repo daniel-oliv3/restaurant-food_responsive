@@ -94,6 +94,10 @@ section {
   right: 0;
   height: calc(100vh - 8.5rem);
   background: #fff;
+  display: none;
+}
+.search-form-container.active {
+  display: block;
 }
 .search-form-container form {
   height: 7rem;
@@ -101,6 +105,7 @@ section {
   width: 100%;
   display: flex;
   align-items: center;
+  animation: fadeUp 0.4s linear;
 }
 .search-form-container form input {
   height: 100%;
