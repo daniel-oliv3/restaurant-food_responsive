@@ -333,6 +333,11 @@ section {
     height: calc(100vh - 8.5rem);
     background: $white;
     padding: 0 2rem;
+    display: none;
+
+    &.active {
+        display: block;
+    }
 
     form {
         margin: 2rem auto;
@@ -341,6 +346,7 @@ section {
         border: $border;
         padding: 2rem;
         border-radius: .5rem;
+        animation: fadeUp .4s linear;
 
         h3 {
             padding-bottom: 1rem;
@@ -380,6 +386,21 @@ section {
             margin: 1rem 0;
             width: 100%;
             text-align: center;
+        }
+
+        p {
+            padding-top: 1rem;
+            font-size: 1.5rem;
+            color: $light-color;
+
+            a {
+                color: $green;
+
+                &:hover {
+                    color: $black;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

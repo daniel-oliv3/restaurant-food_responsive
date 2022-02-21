@@ -260,6 +260,10 @@ section {
   height: calc(100vh - 8.5rem);
   background: #fff;
   padding: 0 2rem;
+  display: none;
+}
+.login-form-container.active {
+  display: block;
 }
 .login-form-container form {
   margin: 2rem auto;
@@ -268,6 +272,7 @@ section {
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   padding: 2rem;
   border-radius: 0.5rem;
+  animation: fadeUp 0.4s linear;
 }
 .login-form-container form h3 {
   padding-bottom: 1rem;
@@ -300,6 +305,18 @@ section {
   margin: 1rem 0;
   width: 100%;
   text-align: center;
+}
+.login-form-container form p {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  color: #666;
+}
+.login-form-container form p a {
+  color: #27ae60;
+}
+.login-form-container form p a:hover {
+  color: #130f40;
+  text-decoration: underline;
 }
 
 /* ======= ------ section/Seção de --------- ======= */
