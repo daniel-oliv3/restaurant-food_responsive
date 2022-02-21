@@ -140,6 +140,7 @@ section {
     height: calc(100vh - 8.5rem);
     background: $white;
     display: none;
+    z-index: 1000;
 
     &.active {
         display: block;
@@ -177,7 +178,7 @@ section {
 
 
 /* ======= Shopping-cart section/Seção de carrinho de compras ======= */
-.shopping-cardt-container {
+.shipping-cart-container {
     position: fixed;
     top: 8.5rem;
     left: 0;
@@ -186,6 +187,7 @@ section {
     background: $white;
     overflow-y: scroll;
     padding-bottom: 8rem;
+    z-index: 1000;
 
 
     &::-webkit-scrollbar {
@@ -199,6 +201,34 @@ section {
     &::-webkit-scrollbar-thumb {
         background: $black;
         border-radius: 5rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        padding: 1rem;
+        color: $black;
+        border-bottom: $border;
+        text-align: center;
+    }
+
+    .products-container {
+        border: $border;
+        border-radius: .5rem;
+
+
+        .box-container {
+            @include grid(30rem);
+
+            .box {
+                border-radius: .5rem;
+                background: $light-bg;
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+                padding: 2rem;
+                position: relative;
+            }
+        }
     }
 }
 
