@@ -337,8 +337,14 @@ section {
 }
 .home .content h3 {
   font-size: 4rem;
-  color: #27ae60;
+  color: #130f40;
   padding-top: 1rem;
+}
+.home .content p {
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 2;
+  padding: 1rem 0;
 }
 .home .image {
   flex: 1 1 41rem;

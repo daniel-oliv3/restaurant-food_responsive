@@ -426,8 +426,15 @@ section {
 
         h3 {
             font-size: 4rem;
-            color: $green;
+            color: $black;
             padding-top: 1rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: $light-color;
+            line-height: 2;
+            padding: 1rem 0;
         }
     }
 
