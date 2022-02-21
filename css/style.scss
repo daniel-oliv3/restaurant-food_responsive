@@ -124,6 +124,13 @@ section {
     display: none;
 }
 
+@keyframes fadeUp {
+    0% {
+        transform: translateY(5rem);
+        opacity: 0;
+    }
+}
+
 /* Search Form / Formulario de Pesquisa */
 .search-form-container {
     position: fixed;
