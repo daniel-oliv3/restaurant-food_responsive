@@ -283,6 +283,23 @@ section {
   font-size: 1.6rem;
   color: #130f40;
   text-transform: none;
+  width: 100%;
+}
+.login-form-container form .remember {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.login-form-container form .remember label {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+}
+.login-form-container form .btn {
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* ======= ------ section/Seção de --------- ======= */
