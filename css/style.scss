@@ -418,10 +418,36 @@ section {
 
     .content {
         flex: 1 1 41rem;
+
+        span {
+            font-size: 2rem;
+            color: $green;
+        }
+
+        h3 {
+            font-size: 4rem;
+            color: $green;
+            padding-top: 1rem;
+        }
     }
 
-    .img {
+    .image {
         flex: 1 1 41rem;
+        margin: 2rem 0;
+        pointer-events: none;
+
+        .home-img {
+            width: 100%;
+            margin-top: 5rem;
+        }
+    }
+
+
+    .home-parallax-img {
+        position: absolute;
+        top: -10rem;
+        right: -10rem;
+        width: 80vw;
     }
 }
 
