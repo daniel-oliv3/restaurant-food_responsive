@@ -251,6 +251,40 @@ section {
 }
 
 /* Login Form / Formulario de Login */
+.login-form-container {
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+  padding: 0 2rem;
+}
+.login-form-container form {
+  margin: 2rem auto;
+  max-width: 40rem;
+  box-shadow: 0 1rem 1rem solid rgba(0, 0, 0, 0.05);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.login-form-container form h3 {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #130f40;
+}
+.login-form-container form .box {
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  background: #f7f7f7;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #130f40;
+  text-transform: none;
+}
+
 /* ======= ------ section/Seção de --------- ======= */
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
