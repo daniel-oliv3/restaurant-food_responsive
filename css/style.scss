@@ -178,7 +178,7 @@ section {
 
 
 /* ======= Shopping-cart section/Seção de carrinho de compras ======= */
-.shipping-cart-container {
+.shopping-cart-container {
     position: fixed;
     top: 8.5rem;
     left: 0;
@@ -218,6 +218,7 @@ section {
 
         .box-container {
             @include grid(30rem);
+            padding: 1.5rem;
 
             .box {
                 border-radius: .5rem;
@@ -227,6 +228,37 @@ section {
                 gap: 1.5rem;
                 padding: 2rem;
                 position: relative;
+
+
+                .fa-times {
+                    position: absolute;
+                    top: .7rem;
+                    right: 1rem;
+                    font-size: 2rem;
+                    cursor: pointer;
+                    color: $black;
+
+
+                    &:hover {
+                        color: $green;
+                    }
+                }
+
+                img {
+                    height: 8rem;
+                }
+
+                .content {
+                    h3 {
+                        font-size: 2rem;
+                        color: $black;
+                    }
+
+                    span {
+                        font-size: 1.5rem;
+                        color: $light-color;
+                    }
+                }
             }
         }
     }

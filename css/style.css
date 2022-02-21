@@ -133,7 +133,7 @@ section {
 }
 
 /* ======= Shopping-cart section/Seção de carrinho de compras ======= */
-.shipping-cart-container {
+.shopping-cart-container {
   position: fixed;
   top: 8.5rem;
   left: 0;
@@ -144,33 +144,34 @@ section {
   padding-bottom: 8rem;
   z-index: 1000;
 }
-.shipping-cart-container::-webkit-scrollbar {
+.shopping-cart-container::-webkit-scrollbar {
   width: 1rem;
 }
-.shipping-cart-container::-webkit-scrollbar-track {
+.shopping-cart-container::-webkit-scrollbar-track {
   background: #fff;
 }
-.shipping-cart-container::-webkit-scrollbar-thumb {
+.shopping-cart-container::-webkit-scrollbar-thumb {
   background: #130f40;
   border-radius: 5rem;
 }
-.shipping-cart-container .title {
+.shopping-cart-container .title {
   font-size: 2.5rem;
   padding: 1rem;
   color: #130f40;
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-.shipping-cart-container .products-container {
+.shopping-cart-container .products-container {
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
 }
-.shipping-cart-container .products-container .box-container {
+.shopping-cart-container .products-container .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+  padding: 1.5rem;
 }
-.shipping-cart-container .products-container .box-container .box {
+.shopping-cart-container .products-container .box-container .box {
   border-radius: 0.5rem;
   background: #f7f7f7;
   display: flex;
@@ -178,6 +179,28 @@ section {
   gap: 1.5rem;
   padding: 2rem;
   position: relative;
+}
+.shopping-cart-container .products-container .box-container .box .fa-times {
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #130f40;
+}
+.shopping-cart-container .products-container .box-container .box .fa-times:hover {
+  color: #27ae60;
+}
+.shopping-cart-container .products-container .box-container .box img {
+  height: 8rem;
+}
+.shopping-cart-container .products-container .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #130f40;
+}
+.shopping-cart-container .products-container .box-container .box .content span {
+  font-size: 1.5rem;
+  color: #666;
 }
 
 /*
