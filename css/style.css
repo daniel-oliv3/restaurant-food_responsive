@@ -127,6 +127,7 @@ section {
   width: 100%;
   display: flex;
   align-items: center;
+  animation: fadeUp 0.4s linear;
 }
 .search-form-container form input {
   height: 100%;
@@ -156,6 +157,10 @@ section {
   overflow-y: scroll;
   padding-bottom: 8rem;
   z-index: 1000;
+  display: none;
+}
+.shopping-cart-container.active {
+  display: block;
 }
 .shopping-cart-container::-webkit-scrollbar {
   width: 1rem;
@@ -231,6 +236,7 @@ section {
   margin-top: 2rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
+  animation: fadeUp 0.4s linear 0.4s backwards;
 }
 .shopping-cart-container .cart-total .box {
   padding: 1.5rem;

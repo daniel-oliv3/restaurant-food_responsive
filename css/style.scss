@@ -166,7 +166,7 @@ section {
         width: 100%;
         display: flex;
         align-items: center;
-        //animation: fadeUp .4s linear;
+        animation: fadeUp .4s linear;
 
         input {
             height: 100%;
@@ -202,6 +202,12 @@ section {
     overflow-y: scroll;
     padding-bottom: 8rem;
     z-index: 1000;
+    display: none;
+
+
+    &.active {
+        display: block;
+    }
 
 
     &::-webkit-scrollbar {
@@ -228,7 +234,6 @@ section {
     .products-container {
         border: $border;
         border-radius: .5rem;
-
         animation: fadeUp .4s linear;
 
         .box-container {
@@ -298,7 +303,7 @@ section {
         margin-top: 2rem;
         border: $border;
         border-radius: .5rem;
-
+        animation: fadeUp .4s linear .4s backwards;
 
         .box {
             padding: 1.5rem;
