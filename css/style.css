@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@700&family=Poppins:wght@100;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@700&family=Satisfy&display=swap");
 * {
@@ -33,7 +34,7 @@ section {
   padding: 2rem 9%;
 }
 
-/* ======= Header Section ======= */
+/* ======= Header section/Seção de cabeçalho ======= */
 .header {
   position: sticky;
   top: 0;
@@ -128,6 +129,28 @@ section {
 }
 .search-form-container form label:hover {
   color: #27ae60;
+}
+
+/* ======= Shopping-cart section/Seção de carrinho de compras ======= */
+.shopping-cardt-container {
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+  overflow-y: scroll;
+  padding-bottom: 8rem;
+}
+.shopping-cardt-container::-webkit-scrollbar {
+  width: 1rem;
+}
+.shopping-cardt-container::-webkit-scrollbar-track {
+  background: #fff;
+}
+.shopping-cardt-container::-webkit-scrollbar-thumb {
+  background: #130f40;
+  border-radius: 5rem;
 }
 
 /*

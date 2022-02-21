@@ -62,7 +62,7 @@ section {
 
 
 
-/* ======= Header Section ======= */
+/* ======= Header section/Seção de cabeçalho ======= */
 .header {
     position: sticky;
     top: 0;
@@ -176,8 +176,31 @@ section {
 }
 
 
+/* ======= Shopping-cart section/Seção de carrinho de compras ======= */
+.shopping-cardt-container {
+    position: fixed;
+    top: 8.5rem;
+    left: 0;
+    right: 0;
+    height: calc(100vh - 8.5rem);
+    background: $white;
+    overflow-y: scroll;
+    padding-bottom: 8rem;
 
 
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $white;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $black;
+        border-radius: 5rem;
+    }
+}
 
 
 
