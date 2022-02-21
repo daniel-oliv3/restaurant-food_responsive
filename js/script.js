@@ -11,8 +11,14 @@ document.querySelector('#cart-btn').onclick = () => {
     cart.classList.toggle('active');
 }
 
-let login = document.querySelector('.login-form-container');
+let loginForm = document.querySelector('.login-form-container');
 
 document.querySelector('#login-btn').onclick = () => {
-    login.classList.toggle('active');
+    loginForm.classList.toggle('active');
+}
+
+let navbar = document.querySelector('.header .navbar');
+
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
 }
