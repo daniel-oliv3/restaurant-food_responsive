@@ -257,7 +257,45 @@ section {
                     span {
                         font-size: 1.5rem;
                         color: $light-color;
+
+
+                        &.price {
+                            color: $green;
+                            font-size: 1.7rem;
+                        }
                     }
+
+
+                    input {
+                        width: 8rem;
+                        padding: .5rem 1.2;
+                        font-size: 1.5rem;
+                        color: $black;
+                        margin: .7rem 0;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .cart-total {
+        margin-top: 2rem;
+        border: $border;
+        border-radius: .5rem;
+
+
+        .box {
+            padding: 1.5rem;
+
+            h3 {
+                color: $black;
+                font-size: 2rem;
+                padding-bottom: .7rem;
+
+
+                span{
+                    color: $green;
                 }
             }
         }

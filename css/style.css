@@ -202,6 +202,33 @@ section {
   font-size: 1.5rem;
   color: #666;
 }
+.shopping-cart-container .products-container .box-container .box .content span.price {
+  color: #27ae60;
+  font-size: 1.7rem;
+}
+.shopping-cart-container .products-container .box-container .box .content input {
+  width: 8rem;
+  padding: 0.5rem 1.2;
+  font-size: 1.5rem;
+  color: #130f40;
+  margin: 0.7rem 0;
+}
+.shopping-cart-container .cart-total {
+  margin-top: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+.shopping-cart-container .cart-total .box {
+  padding: 1.5rem;
+}
+.shopping-cart-container .cart-total .box h3 {
+  color: #130f40;
+  font-size: 2rem;
+  padding-bottom: 0.7rem;
+}
+.shopping-cart-container .cart-total .box h3 span {
+  color: #27ae60;
+}
 
 /*
 Caminho para o gitbash 
