@@ -146,7 +146,7 @@ section {
   color: #27ae60;
 }
 
-/* ======= Shopping-cart section/Seção de carrinho de compras ======= */
+/* Shopping-cart section/Seção de carrinho de compras */
 .shopping-cart-container {
   position: fixed;
   top: 8.5rem;
@@ -319,7 +319,22 @@ section {
   text-decoration: underline;
 }
 
-/* ======= ------ section/Seção de --------- ======= */
+/* ======= ------ Home Section/Seção inicial --------- ======= */
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.home .content {
+  flex: 1 1 41rem;
+}
+.home .img {
+  flex: 1 1 41rem;
+}
+
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
   html {
