@@ -516,6 +516,11 @@ section {
     }
 
 
+    .home .home-parallax-img {
+        top: 0;
+        right: 0;
+        width: 130%;  
+    }
 }
 
 @media (max-width: 450px) {
@@ -532,6 +537,17 @@ section {
             .btn {
                 width: 100%;
             }
+        }
+    }
+
+
+    .home .content {
+        h3 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
         }
     }
 }

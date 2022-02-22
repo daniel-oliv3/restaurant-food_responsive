@@ -399,6 +399,12 @@ section {
     margin: 2rem;
     display: block;
   }
+
+  .home .home-parallax-img {
+    top: 0;
+    right: 0;
+    width: 130%;
+  }
 }
 @media (max-width: 450px) {
   html {
@@ -410,6 +416,13 @@ section {
   }
   .shopping-cart-container .cart-total .box .btn {
     width: 100%;
+  }
+
+  .home .content h3 {
+    font-size: 3rem;
+  }
+  .home .content p {
+    font-size: 1.5rem;
   }
 }
 /*
