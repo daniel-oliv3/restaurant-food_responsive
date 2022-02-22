@@ -514,7 +514,7 @@ section {
 /* ======= Banner Section/Seção de Banner ======= */
 .banner .row-banner {
   background: url(../images/row-banner.png) no-repeat;
-  height: 40rem;
+  height: 45rem;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -539,6 +539,29 @@ section {
 .banner .row-banner .content p {
   font-size: 2rem;
   padding-bottom: 1rem;
+}
+.banner .grid-banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.banner .grid-banner .grid {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 45rem;
+}
+.banner .grid-banner .grid:hover img {
+  transform: scale(1.2);
+}
+.banner .grid-banner .grid img {
+  height: 100%;
+  width: 100%;
+}
+.banner .grid-banner .grid .content {
+  position: absolute;
+  top: 2rem;
+  padding: 0 2rem;
 }
 
 /* ======= ------ Responsividade --------- ======= */
@@ -611,7 +634,7 @@ cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
 SASS
 sass --watch ./css/style.scss:./css/style.css
 
-32m
+46m
 */
 
 /*# sourceMappingURL=style.css.map */
