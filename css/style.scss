@@ -532,6 +532,30 @@ section {
             font-size: 1.4rem;
             color: $light-bg;
         }
+
+        .icons-container {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+
+
+            .icons {
+                flex: 1 1 20rem;
+                border-radius: .5rem;
+                background: $white;
+                box-shadow: $box-shadow;
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                padding: 2rem;
+
+                h3 {
+                    font-size: 1.7rem;
+                    color: $black;
+                }
+            }
+        }
     }
 }
 
