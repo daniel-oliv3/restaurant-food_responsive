@@ -573,7 +573,17 @@ section {
 
 
 /* ======= Popular Section/Seção popular ======= */
+.popular .box-container {
+    @include grid(25rem);
 
+    .box {
+        border-radius: .5rem;
+        position: relative;
+        background: $light-bg;
+        padding: 2rem;
+        text-align: center;
+    }
+}
 
 
 

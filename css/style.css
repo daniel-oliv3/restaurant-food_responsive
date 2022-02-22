@@ -458,6 +458,19 @@ section {
 }
 
 /* ======= Popular Section/Seção popular ======= */
+.popular .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.popular .box-container .box {
+  border-radius: 0.5rem;
+  position: relative;
+  background: #f7f7f7;
+  padding: 2rem;
+  text-align: center;
+}
+
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
   html {
