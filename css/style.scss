@@ -640,8 +640,15 @@ section {
 
 
 
-
-
+/* ======= Banner Section/Seção de Banner ======= */
+.banner {
+    .row-banner {
+        background: url(../images/row-banner.png) no-repeat;
+        height: 40rem; //altura
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 
 

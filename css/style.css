@@ -511,6 +511,14 @@ section {
   text-decoration: line-through;
 }
 
+/* ======= Banner Section/Seção de Banner ======= */
+.banner .row-banner {
+  background: url(../images/row-banner.png) no-repeat;
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+}
+
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
   html {
