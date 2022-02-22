@@ -647,6 +647,30 @@ section {
         height: 40rem; //altura
         background-size: cover;
         background-position: center;
+        position: relative;
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 7%;
+            transform: translateY(-50%);
+
+            span {
+                @include font(4rem);
+                color: $black;
+            }
+
+            h3 {
+                font-size: 6rem;
+                color: red;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 2rem;
+                padding-bottom: 1rem;
+            }
+        }
     }
 }
 

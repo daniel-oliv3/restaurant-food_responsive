@@ -517,6 +517,28 @@ section {
   height: 40rem;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+.banner .row-banner .content {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+}
+.banner .row-banner .content span {
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
+  color: #27ae60;
+  color: #130f40;
+}
+.banner .row-banner .content h3 {
+  font-size: 6rem;
+  color: red;
+  text-transform: uppercase;
+}
+.banner .row-banner .content p {
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* ======= ------ Responsividade --------- ======= */
