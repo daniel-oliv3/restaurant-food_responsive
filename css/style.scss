@@ -495,7 +495,45 @@ section {
 
 
 /* ======= About Section/Seção Sobre Nós ======= */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    background: $light-bg;
 
+    .image {
+        flex: 1 1 40rem;
+
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    .content {
+        flex: 1 1 40rem;
+
+
+        span {
+            @include font(3rem);
+        }
+
+        .title {
+            font-size: 3rem;
+            padding-top: .5rem;
+            color: $black;
+        }
+
+        p {
+            padding: 1rem 0;
+            line-height: 2;
+            font-size: 1.4rem;
+            color: $light-bg;
+        }
+    }
+}
 
 
 
