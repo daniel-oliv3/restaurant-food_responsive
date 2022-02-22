@@ -60,6 +60,15 @@ section {
     padding: 2rem 9%;
 }
 
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+
+    span {
+        @include font (2.5rem)
+    }
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -505,7 +514,6 @@ section {
     .image {
         flex: 1 1 40rem;
 
-
         img {
             width: 100%;
         }
@@ -534,11 +542,10 @@ section {
         }
 
         .icons-container {
-            margin-top: 1rem;
+            margin-top: 2rem;
             display: flex;
             flex-wrap: wrap;
             gap: 1.5rem;
-
 
             .icons {
                 flex: 1 1 20rem;
@@ -560,7 +567,7 @@ section {
 }
 
 
-
+/* ======= Popular Section/Seção popular ======= */
 
 
 
