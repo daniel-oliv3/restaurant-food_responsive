@@ -609,6 +609,19 @@ section {
                 font-size: 2rem;
                 color: $black;
             }
+
+            .stars {
+                padding: 1rem 0;
+                font-size: 1.7rem;
+
+                i {
+                    color: gold;
+                }
+
+                span {
+                    color: $light-color;
+                }
+            }
         }
     }
 }

@@ -491,6 +491,16 @@ section {
   font-size: 2rem;
   color: #130f40;
 }
+.popular .box-container .box .content .stars {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+}
+.popular .box-container .box .content .stars i {
+  color: gold;
+}
+.popular .box-container .box .content .stars span {
+  color: #666;
+}
 
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
