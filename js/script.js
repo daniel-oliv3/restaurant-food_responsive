@@ -47,3 +47,9 @@ document.querySelector('.home').onmousemove = (e) => {
 
 }
 
+document.querySelector('.home').onmouseleave = (e) => {
+
+    document.querySelector('.home .home-parallax-img').style.transform = `translateX(0px) translateY(0px)`;
+
+}
+
