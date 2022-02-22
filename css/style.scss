@@ -465,12 +465,21 @@ section {
 /* ======= Category Section/Seção de Categoria ======= */
 .category {
     @include grid(16rem);
+    padding-bottom: 5rem;
 
     .box {
         padding: 2rem;
         text-align: center;
         border-radius: .5rem;
         background-color: $light-bg;
+
+        &:hover {
+            background: $green;
+
+            h3 {
+                color: $white;
+            }
+        }
 
         img {
             height: 7rem;
@@ -482,6 +491,22 @@ section {
         }
     }
 }
+
+
+
+/* ======= About Section/Seção Sobre Nós ======= */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

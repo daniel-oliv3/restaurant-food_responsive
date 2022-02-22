@@ -367,12 +367,19 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
+  padding-bottom: 5rem;
 }
 .category .box {
   padding: 2rem;
   text-align: center;
   border-radius: 0.5rem;
   background-color: #f7f7f7;
+}
+.category .box:hover {
+  background: #27ae60;
+}
+.category .box:hover h3 {
+  color: #fff;
 }
 .category .box img {
   height: 7rem;
@@ -382,6 +389,7 @@ section {
   color: #130f40;
 }
 
+/* ======= About Section/Seção Sobre Nós ======= */
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
   html {
