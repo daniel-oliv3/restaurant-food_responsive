@@ -40,8 +40,12 @@ section {
 }
 .heading span {
   font-family: "Satisfy", cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #27ae60;
+}
+.heading h3 {
+  font-size: 3rem;
+  color: #130f40;
 }
 
 .btn {

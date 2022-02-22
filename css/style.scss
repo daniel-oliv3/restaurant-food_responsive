@@ -65,7 +65,12 @@ section {
     padding-bottom: 2rem;
 
     span {
-        @include font (2.5rem)
+        @include font (3rem)
+    }
+
+    h3 {
+        font-size: 3rem;
+        color: $black;
     }
 }
 
