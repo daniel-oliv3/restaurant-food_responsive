@@ -472,7 +472,7 @@ section {
 }
 .popular .box-container .box .fa-heart {
   position: absolute;
-  top: 1.2rem;
+  top: 1.5rem;
   right: 1.5rem;
   font-size: 2.5rem;
   color: #666;
@@ -500,6 +500,15 @@ section {
 }
 .popular .box-container .box .content .stars span {
   color: #666;
+}
+.popular .box-container .box .content .price {
+  font-size: 2rem;
+  color: #130f40;
+}
+.popular .box-container .box .content .price span {
+  font-size: 1.5rem;
+  color: #666;
+  text-decoration: line-through;
 }
 
 /* ======= ------ Responsividade --------- ======= */
