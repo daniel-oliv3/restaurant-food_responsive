@@ -582,6 +582,34 @@ section {
         background: $light-bg;
         padding: 2rem;
         text-align: center;
+
+        .fa-heart {
+            position: absolute;
+            top: 1.2rem;
+            right: 1.5rem;
+            font-size: 2.5rem;
+            color: $light-color;
+            cursor: pointer;
+
+            &:hover {
+                color: $green;
+            }
+        }
+
+        .image {
+            margin: 1rem 0;
+
+            img {
+                height: 15rem;
+            }
+        }
+
+        .content {
+            h3 {
+                font-size: 2rem;
+                color: $black;
+            }
+        }
     }
 }
 
