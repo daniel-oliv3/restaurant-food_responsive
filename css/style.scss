@@ -695,6 +695,30 @@ section {
                 position: absolute;
                 top: 2rem;
                 padding: 0 2rem;
+
+                &.center {
+                    text-align: center;
+                    width: 100%;
+
+                    span {
+                        color: $light-color;
+                    }
+
+                    h3 {
+                        color: $black;
+                    }
+                }
+
+                span {
+                    font-size: 2.5rem;
+                    color: $white;
+                }
+
+                h3 {
+                    font-size: 3rem;
+                    color: $white;
+                    padding-top: .5rem;
+                }
             }
         }
     }

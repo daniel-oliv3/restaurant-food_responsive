@@ -563,6 +563,25 @@ section {
   top: 2rem;
   padding: 0 2rem;
 }
+.banner .grid-banner .grid .content.center {
+  text-align: center;
+  width: 100%;
+}
+.banner .grid-banner .grid .content.center span {
+  color: #666;
+}
+.banner .grid-banner .grid .content.center h3 {
+  color: #130f40;
+}
+.banner .grid-banner .grid .content span {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.banner .grid-banner .grid .content h3 {
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 0.5rem;
+}
 
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
