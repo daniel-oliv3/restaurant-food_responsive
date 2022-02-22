@@ -407,7 +407,7 @@ section {
 
 
 
-/* ======= ------ Home Section/Seção inicial --------- ======= */
+/* ======= Home Section/Seção inicial ======= */
 .home {
     display: flex;
     align-items: center;
@@ -462,7 +462,26 @@ section {
 
 
 
+/* ======= Category Section/Seção de Categoria ======= */
+.category {
+    @include grid(16rem);
 
+    .box {
+        padding: 2rem;
+        text-align: center;
+        border-radius: .5rem;
+        background-color: $light-bg;
+
+        img {
+            height: 7rem;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            color: $black;
+        }
+    }
+}
 
 
 

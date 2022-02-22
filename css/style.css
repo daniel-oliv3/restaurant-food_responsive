@@ -319,7 +319,7 @@ section {
   text-decoration: underline;
 }
 
-/* ======= ------ Home Section/Seção inicial --------- ======= */
+/* ======= Home Section/Seção inicial ======= */
 .home {
   display: flex;
   align-items: center;
@@ -360,6 +360,26 @@ section {
   top: -10rem;
   right: -10rem;
   width: 80vw;
+}
+
+/* ======= Category Section/Seção de Categoria ======= */
+.category {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+.category .box {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: #f7f7f7;
+}
+.category .box img {
+  height: 7rem;
+}
+.category .box h3 {
+  font-size: 1.8rem;
+  color: #130f40;
 }
 
 /* ======= ------ Responsividade --------- ======= */
