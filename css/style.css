@@ -684,6 +684,12 @@ section {
   overflow: hidden;
   border-radius: 0.5rem;
 }
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.2);
+}
+.blogs .box-container .box:hover .image h3 {
+  left: 1.5rem;
+}
 .blogs .box-container .box .image {
   height: 25rem;
   overflow: hidden;
@@ -693,11 +699,16 @@ section {
 .blogs .box-container .box .image h3 {
   position: absolute;
   top: 1rem;
-  right: 1.5rem;
+  left: -100%;
   border-radius: 0.5rem;
   background: #fff;
   color: #130f40;
   font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+.blogs .box-container .box .image i {
+  padding-right: 0.5rem;
+  color: #27ae60;
 }
 .blogs .box-container .box .image img {
   height: 100%;

@@ -845,6 +845,18 @@ section {
         overflow: hidden;
         border-radius: .5rem;
 
+        &:hover {
+            .image {
+                img {
+                    transform: scale(1.2);
+                }
+
+                h3 {
+                    left: 1.5rem;
+                }
+            }
+        }
+
 
         .image {
             height: 25rem;
@@ -855,11 +867,17 @@ section {
             h3 {
                 position: absolute;
                 top: 1rem;
-                right: 1.5rem;
+                left: -100%;
                 border-radius: .5rem;
                 background: $white;
                 color: $black;
                 font-size: 1.5rem;
+                padding: .5rem 1rem;
+            }
+
+            i {
+                padding-right: .5rem;
+                color: $green;
             }
 
             img {
