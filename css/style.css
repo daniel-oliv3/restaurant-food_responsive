@@ -592,6 +592,22 @@ section {
 .menu .box-container .box {
   border-radius: 0.5rem;
   background: #f7f7f7;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.menu .box-container .box img {
+  height: 10rem;
+}
+.menu .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #130f40;
+  padding-bottom: 0.5rem;
+}
+.menu .box-container .box .content .price {
+  font-size: 1.8rem;
+  color: #27ae60;
 }
 
 /* ======= ------ Responsividade --------- ======= */

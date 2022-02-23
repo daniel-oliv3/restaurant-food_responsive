@@ -732,6 +732,28 @@ section {
     .box {
         border-radius: .5rem;
         background: $light-bg;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        img {
+            height: 10rem;
+        }
+
+        .content {
+            
+            h3 {
+                font-size: 2rem;
+                color: $black;
+                padding-bottom: .5rem;
+            }
+
+            .price {
+                font-size: 1.8rem;
+                color: $green;
+            }
+        }
     }
 }
 
