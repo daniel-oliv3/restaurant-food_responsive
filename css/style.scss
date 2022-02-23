@@ -772,18 +772,20 @@ section {
 
     .icons-container {
         @include grid(30rem);
+        margin-bottom: 2rem;
 
         .icons {
             border-radius: .5rem;
             padding: 2rem;
             text-align: center;
+            background: $light-bg;
 
             img {
-                height: 6rem;
+                height: 10rem;
             }
 
             h3 {
-                font-size: 2.2rem;
+                font-size: 2rem;
                 color: $black;
                 margin-top: .5rem;
             }

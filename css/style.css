@@ -622,17 +622,19 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 .order .icons-container .icons {
   border-radius: 0.5rem;
   padding: 2rem;
   text-align: center;
+  background: #f7f7f7;
 }
 .order .icons-container .icons img {
-  height: 6rem;
+  height: 10rem;
 }
 .order .icons-container .icons h3 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #130f40;
   margin-top: 0.5rem;
 }
