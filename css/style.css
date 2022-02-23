@@ -597,6 +597,13 @@ section {
   align-items: center;
   gap: 1.5rem;
 }
+.menu .box-container .box:hover {
+  background: #130f40;
+  /*verde*/
+}
+.menu .box-container .box:hover .content h3 {
+  color: #fff;
+}
 .menu .box-container .box img {
   height: 10rem;
 }
@@ -610,7 +617,8 @@ section {
   color: #27ae60;
 }
 
-/* ======= ------ Responsividade --------- ======= */
+/* ======= Order Section/Seção de Pedidos ======= */
+/* ======= ------ Responsividade ------ ======= */
 @media (max-width: 991px) {
   html {
     font-size: 55%;

@@ -737,6 +737,15 @@ section {
         align-items: center;
         gap: 1.5rem;
 
+        &:hover {
+            background: $black; /*verde*/
+
+            .content h3{
+                color: $white;
+            }
+
+        }
+
         img {
             height: 10rem;
         }
@@ -758,10 +767,18 @@ section {
 }
 
 
+/* ======= Order Section/Seção de Pedidos ======= */
 
 
 
-/* ======= ------ Responsividade --------- ======= */
+
+
+
+
+
+
+
+/* ======= ------ Responsividade ------ ======= */
 @media (max-width: 991px) {
     
     html {
