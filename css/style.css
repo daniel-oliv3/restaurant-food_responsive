@@ -675,6 +675,36 @@ section {
 }
 
 /* ======= Blogs Section/Seção de Blogs ======= */
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.blogs .box-container .box {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.blogs .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.blogs .box-container .box .image h3 {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  color: #130f40;
+  font-size: 1.5rem;
+}
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* ======= ------ Responsividade ------ ======= */
 @media (max-width: 991px) {
   html {

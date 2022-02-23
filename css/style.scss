@@ -838,6 +838,42 @@ section {
 
 
 /* ======= Blogs Section/Seção de Blogs ======= */
+.blogs .box-container {
+    @include grid(30rem);
+
+    .box {
+        overflow: hidden;
+        border-radius: .5rem;
+
+
+        .image {
+            height: 25rem;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+
+            h3 {
+                position: absolute;
+                top: 1rem;
+                right: 1.5rem;
+                border-radius: .5rem;
+                background: $white;
+                color: $black;
+                font-size: 1.5rem;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+
+
 
 
 
