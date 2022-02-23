@@ -618,6 +618,24 @@ section {
 }
 
 /* ======= Order Section/Seção de Pedidos ======= */
+.order .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.order .icons-container .icons {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+.order .icons-container .icons img {
+  height: 6rem;
+}
+.order .icons-container .icons h3 {
+  font-size: 2.2rem;
+  color: #130f40;
+  margin-top: 0.5rem;
+}
 .order form {
   background: #f7f7f7;
   padding: 2rem;
@@ -696,6 +714,10 @@ section {
     top: 0;
     right: 0;
     width: 130%;
+  }
+
+  .order form .flex .inputBox {
+    width: 100%;
   }
 }
 @media (max-width: 450px) {

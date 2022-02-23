@@ -770,6 +770,26 @@ section {
 /* ======= Order Section/Seção de Pedidos ======= */
 .order {
 
+    .icons-container {
+        @include grid(30rem);
+
+        .icons {
+            border-radius: .5rem;
+            padding: 2rem;
+            text-align: center;
+
+            img {
+                height: 6rem;
+            }
+
+            h3 {
+                font-size: 2.2rem;
+                color: $black;
+                margin-top: .5rem;
+            }
+        }
+    }
+
     form {
         background: $light-bg;
         padding: 2rem;
@@ -871,6 +891,10 @@ section {
         top: 0;
         right: 0;
         width: 130%;  
+    }
+
+    .order form .flex .inputBox {
+        width: 100%;
     }
 }
 
