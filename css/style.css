@@ -583,6 +583,17 @@ section {
   padding-top: 0.5rem;
 }
 
+/* ======= Menu Section/Seção de Cardápio ======= */
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.menu .box-container .box {
+  border-radius: 0.5rem;
+  background: #f7f7f7;
+}
+
 /* ======= ------ Responsividade --------- ======= */
 @media (max-width: 991px) {
   html {
@@ -653,7 +664,7 @@ cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
 SASS
 sass --watch ./css/style.scss:./css/style.css
 
-46m
+49m
 */
 
 /*# sourceMappingURL=style.css.map */

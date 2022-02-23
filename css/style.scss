@@ -725,7 +725,15 @@ section {
 }
 
 
+/* ======= Menu Section/Seção de Cardápio ======= */
+.menu .box-container {
+    @include grid(30rem);
 
+    .box {
+        border-radius: .5rem;
+        background: $light-bg;
+    }
+}
 
 
 
@@ -835,5 +843,5 @@ cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
 SASS
 sass --watch ./css/style.scss:./css/style.css
 
-46m
+49m
 */
