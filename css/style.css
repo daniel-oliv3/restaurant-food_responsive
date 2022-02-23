@@ -618,6 +618,42 @@ section {
 }
 
 /* ======= Order Section/Seção de Pedidos ======= */
+.order form {
+  background: #f7f7f7;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.order form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.order form .flex .inputBox {
+  width: 49%;
+}
+.order form .flex span {
+  font-size: 1.7rem;
+  color: #666;
+}
+.order form .flex input, .order form .flex textarea {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  text-transform: none;
+  color: #130f40;
+}
+.order form .flex textarea {
+  height: 20rem;
+  resize: none;
+}
+.order form .flex .map {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
 /* ======= ------ Responsividade ------ ======= */
 @media (max-width: 991px) {
   html {
