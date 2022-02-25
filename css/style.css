@@ -757,9 +757,10 @@ section {
 .footer .newsletter h3 {
   font-size: 2.5rem;
   color: #130f40;
+  padding-bottom: 1rem;
 }
 .footer .newsletter form {
-  width: 70rem;
+  max-width: 70rem;
   margin: 1rem auto;
   max-width: 70rem;
   display: flex;
@@ -813,6 +814,34 @@ section {
 }
 .footer .box-container .box a i {
   padding-right: 0.5rem;
+  color: #27ae60;
+}
+.footer .bottom {
+  padding-top: 1rem;
+  text-align: center;
+}
+.footer .bottom .share {
+  margin: 1.5rem 0;
+}
+.footer .bottom .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  margin: 0 0.3rem;
+  color: #fff;
+  background: #27ae60;
+}
+.footer .bottom .share a:hover {
+  background: #130f40;
+}
+.footer .bottom .credit {
+  font-size: 2rem;
+  color: #666;
+  padding: 1rem;
+}
+.footer .bottom .credit span {
   color: #27ae60;
 }
 
@@ -883,14 +912,5 @@ section {
     font-size: 1.5rem;
   }
 }
-/*
-Caminho para o gitbash 
-cd C:/Users/Daniel_Oliveira/Documents/GitHub/restaurant-food_responsive
-
-SASS
-sass --watch ./css/style.scss:./css/style.css
-
-49m
-*/
 
 /*# sourceMappingURL=style.css.map */
