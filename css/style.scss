@@ -838,7 +838,8 @@ section {
 
 
 /* ======= Blogs Section/Seção de Blogs ======= */
-.blogs .box-container {
+.blogs{
+     .box-container {
     @include grid(30rem);
 
     .box {
@@ -873,14 +874,14 @@ section {
                 color: $black;
                 font-size: 1.5rem;
                 padding: .5rem 1rem;
-                z-index: 10;
-            }
+                z-index: 10;           
 
             i {
                 padding-right: .5rem;
                 color: $green;
+                }
             }
-
+        
             img {
                 height: 100%;
                 width: 100%;
@@ -919,7 +920,7 @@ section {
         }
     }
 }
-
+}
 
 
 

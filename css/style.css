@@ -707,7 +707,7 @@ section {
   padding: 0.5rem 1rem;
   z-index: 10;
 }
-.blogs .box-container .box .image i {
+.blogs .box-container .box .image h3 i {
   padding-right: 0.5rem;
   color: #27ae60;
 }
