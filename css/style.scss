@@ -839,89 +839,94 @@ section {
 
 /* ======= Blogs Section/Seção de Blogs ======= */
 .blogs{
-     .box-container {
-    @include grid(30rem);
 
-    .box {
-        overflow: hidden;
+    .box-container{
+      @include grid(30rem);
+  
+      .box{
         border-radius: .5rem;
-
-        &:hover {
-            .image {
-                img {
-                    transform: scale(1.2);
-                }
-
-                h3 {
-                    left: 1.5rem;
-                }
+        overflow: hidden;
+  
+        &:hover{
+          .image{
+  
+            h3{
+              left:1.5rem;
             }
+  
+            img{
+              transform: scale(1.1);
+            }
+          }
         }
-
-
-        .image {
-            height: 25rem;
-            overflow: hidden;
+  
+        .image{
+          position: relative;
+          height: 25rem;
+          overflow: hidden;
+          width: 100%;
+  
+          h3{
+            position: absolute;
+            z-index: 10;
+            top:1rem; left:-100%;
+            border-radius: .5rem;
+            padding:.5rem 1rem;
+            background: $white;
+            color:$black;
+            font-size: 1.5rem;
+  
+            i{
+              padding-right: .5rem;
+              color:$green;
+            }
+          }
+  
+          img{
+            height: 100%;
             width: 100%;
-            position: relative;
-
-            h3 {
-                position: absolute;
-                top: 1rem;
-                left: -100%;
-                border-radius: .5rem;
-                background: $white;
-                color: $black;
-                font-size: 1.5rem;
-                padding: .5rem 1rem;
-                z-index: 10;           
-
-            i {
+            object-fit: cover;
+          }
+        }
+  
+        .content{
+          padding:2rem 1.5rem;
+          background: $light-bg;
+  
+          .tags{
+            padding-bottom: 1rem;
+  
+            a{
+              font-size: 1.5rem;
+              color:$light-color;
+              padding-right: .5rem;
+  
+              &:hover{
+                color:$green;
+              }
+              
+              i{
+                color:$green;
                 padding-right: .5rem;
-                color: $green;
-                }
+              }
             }
-        
-            img {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-            }
+          }
+  
+          h3{
+            font-size: 2rem;
+            color:$black;
+          }
+  
+          p{
+            font-size: 1.4rem;
+            color:$light-color;
+            padding:1rem 0;
+            line-height: 2;
+          }
         }
-
-        .content {
-            padding: 1.5rem 2rem;
-            background: $light-color;
-
-            .tags {
-                padding-bottom: 1rem;
-
-                a {
-                    font-size: 1.5rem;
-                    color: $light-color;
-
-                    i {
-                        color: $green;
-                    }
-                }
-            }
-
-            h3 {
-                font-size: 2rem;
-                color: $black;
-            }
-
-            p {
-                font-size: 1.4rem;
-                color: $light-color;
-                padding: 1rem 0;
-                line-height: 2;
-            }
-        }
+      }
     }
-}
-}
-
+  }
 
 
 

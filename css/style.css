@@ -681,31 +681,31 @@ section {
   gap: 1.5rem;
 }
 .blogs .box-container .box {
-  overflow: hidden;
   border-radius: 0.5rem;
-}
-.blogs .box-container .box:hover .image img {
-  transform: scale(1.2);
+  overflow: hidden;
 }
 .blogs .box-container .box:hover .image h3 {
   left: 1.5rem;
 }
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
 .blogs .box-container .box .image {
+  position: relative;
   height: 25rem;
   overflow: hidden;
   width: 100%;
-  position: relative;
 }
 .blogs .box-container .box .image h3 {
   position: absolute;
+  z-index: 10;
   top: 1rem;
   left: -100%;
   border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
   background: #fff;
   color: #130f40;
   font-size: 1.5rem;
-  padding: 0.5rem 1rem;
-  z-index: 10;
 }
 .blogs .box-container .box .image h3 i {
   padding-right: 0.5rem;
@@ -717,8 +717,8 @@ section {
   object-fit: cover;
 }
 .blogs .box-container .box .content {
-  padding: 1.5rem 2rem;
-  background: #666;
+  padding: 2rem 1.5rem;
+  background: #f7f7f7;
 }
 .blogs .box-container .box .content .tags {
   padding-bottom: 1rem;
@@ -726,9 +726,14 @@ section {
 .blogs .box-container .box .content .tags a {
   font-size: 1.5rem;
   color: #666;
+  padding-right: 0.5rem;
+}
+.blogs .box-container .box .content .tags a:hover {
+  color: #27ae60;
 }
 .blogs .box-container .box .content .tags a i {
   color: #27ae60;
+  padding-right: 0.5rem;
 }
 .blogs .box-container .box .content h3 {
   font-size: 2rem;
