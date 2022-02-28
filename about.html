@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- ======= Header section/Seção de cabeçalho ======= -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-utensils"></i> Food </a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">Sobre</a>
+            <a href="popular.html">Popular</a>
+            <a href="menu.html">Cardápio</a>
+            <a href="order.html">Pedido</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+
+    <!-- Search Form/Formulario de Pesquisa -->
+    <section class="search-form-container">
+        <form action="">
+            <input type="search" name="" placeholder="Procure aqui..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </section>
+
+
+    <!-- Shopping-cart section/Seção de Carrinho de Compras -->
+    <section class="shopping-cart-container">
+        <div class="products-container">
+            <h3 class="title">Seus produtos</h3>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="images/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>Sanduíches deliciosos</h3>
+                        <span> Quantidade: </span>
+                        <input type="number" name="" value="1" id=""><br/>
+                        <span> Preço : </span>
+                        <span class="price"> $15.00 </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="images/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>Pizzas deliciosas</h3>
+                        <span> Quantidade: </span>
+                        <input type="number" name="" value="1" id=""><br/>
+                        <span> Preço : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="images/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>Sanduíches Natural</h3>
+                        <span> Quantidade: </span>
+                        <input type="number" name="" value="1" id=""><br/>
+                        <span> Preço : </span>
+                        <span class="price"> $10.00 </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="images/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>Comida deliciosa</h3>
+                        <span> Quantidade: </span>
+                        <input type="number" name="" value="1" id=""><br/>
+                        <span> Preço : </span>
+                        <span class="price"> $11.00 </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="images/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>Batata frita crocante</h3>
+                        <span> Quantidade: </span>
+                        <input type="number" name="" value="1" id=""><br/>
+                        <span> Preço : </span>
+                        <span class="price"> $17.00 </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="images/menu-6.png" alt="">
+                    <div class="content">
+                        <h3>Pizzas Especiais</h3>
+                        <span> Quantidade: </span>
+                        <input type="number" name="" value="1" id=""><br/>
+                        <span> Preço : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cart-total">
+            <h3 class="title"> Total do carrinho </h3>
+            <div class="box">
+                <h3 class="subtotal"> Subtotal : <span>$100</span> </h3>
+                <h3 class="total"> Total : <span>$200</span> </h3>
+
+                <a href="#" class="btn">Fazer o check-out</a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Login Form/Formulario de Login -->
+    <div class="login-form-container">
+        <form action="">
+            <h3>Fomulário de Login</h3>
+            <input type="email" name="" placeholder="Digite seu E-mail: " id="" class="box">
+            <input type="password" name="" placeholder="Digite sua senha: " id="" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Lembre de mim</label>
+            </div>
+            <input type="submit" value="Conecte-se agora" class="btn">
+            <p>Esqueceu a senha? <a href="#">Clique aqui</a></p>
+            <p>Não tem conta <a href="#">Criar uma</a></p>
+        </form>
+    </div>
+
+
+
+
+    <!-- ======= Footer Section/Seção de Rodapé ======= -->
+    <section class="footer">
+        <div class="newsletter">
+            <h3></h3>
+            <form action="">
+                <input type="email" name="" placeholder="Digite o seu e-mail: " id="">
+                <input type="submit" value="Se Inscrever">
+            </form>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <h3>Nosso Cardápio</h3>
+                <a href="#">Pizzas</a>
+                <a href="#">Sanduíches</a>
+                <a href="#">Hambúrgue</a>
+                <a href="#">Frango</a>
+                <a href="#">E Mais...</a>
+            </div>
+            <div class="box">
+                <h3>Links Rápidos</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> Home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> Sobre</a>
+                <a href="#popular"> <i class="fas fa-arrow-right"></i> Popular</a>
+                <a href="#menu"> <i class="fas fa-arrow-right"></i> Cardápio</a>
+                <a href="#order"> <i class="fas fa-arrow-right"></i> Pedido</a>
+                <a href="#blogs"> <i class="fas fa-arrow-right"></i> Blogs</a>
+            </div>
+            <div class="box">
+                <h3>Links Extras</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Meu Pedido</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Minha Conta</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Meu Favorito</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Termos de Uso</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Política de Privacidade</a>
+            </div>
+            <div class="box">
+                <h3>Horário de funcionamento</h3>
+               <p>Segunda-feira : 7:00 ás 22:00</p>
+               <p>Terça-feira : 7:00 ás 22:00</p>
+               <p>Quarta-feira : 7:00 ás 22:00</p>
+               <p>Quinta-feira : 7:00 ás 22:00</p>
+               <p>Sexta-feira : 7:00 ás 22:00</p>
+               <p>Sábado e Domingo : fechado</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+            <div class="credit"> Criado Por <span>Daniel Oliveira</span> | Todos os Direitos Reservados </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!--
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas
+    18/02/2022
+-->
